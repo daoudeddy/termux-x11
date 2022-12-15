@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         kbd = findViewById(R.id.additionalKbd);
 	frm = findViewById(R.id.frame);
-        kbd.setVisibility(View.GONE)
+        kbd.setVisibility(View.GONE);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
             getWindow().
              getDecorView().
